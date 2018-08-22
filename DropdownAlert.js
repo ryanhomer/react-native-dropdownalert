@@ -470,6 +470,7 @@ export default class DropdownAlert extends Component {
       return (
         <Animated.View ref={ref => this.mainView = ref} {...this._panResponder.panHandlers} style={wrapperStyle}>
           <TouchableOpacity
+            accessible={false}
             activeOpacity={!this.props.tapToCloseEnabled || showCancel ? 1 : 0.95}
             onPress={!this.props.tapToCloseEnabled ? null : () => this.close('tap')}
             disabled={!this.props.tapToCloseEnabled}

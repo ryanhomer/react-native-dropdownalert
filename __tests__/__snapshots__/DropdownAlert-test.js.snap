@@ -31,6 +31,7 @@ exports[`renders alert with zIndex correctly 1`] = `
   }
 >
   <TouchableOpacity
+    accessible={false}
     activeOpacity={0.95}
     disabled={false}
     onLayout={[Function]}
@@ -147,6 +148,7 @@ exports[`renders custom alert correctly 1`] = `
   }
 >
   <TouchableOpacity
+    accessible={false}
     activeOpacity={0.95}
     disabled={false}
     onLayout={[Function]}
@@ -260,6 +262,7 @@ exports[`renders custom alert with cancel correctly 1`] = `
   }
 >
   <TouchableOpacity
+    accessible={false}
     activeOpacity={1}
     disabled={false}
     onLayout={[Function]}
@@ -401,6 +404,7 @@ exports[`renders error alert correctly 1`] = `
   }
 >
   <TouchableOpacity
+    accessible={false}
     activeOpacity={0.95}
     disabled={false}
     onLayout={[Function]}
@@ -517,6 +521,7 @@ exports[`renders info alert correctly 1`] = `
   }
 >
   <TouchableOpacity
+    accessible={false}
     activeOpacity={0.95}
     disabled={false}
     onLayout={[Function]}
@@ -633,6 +638,7 @@ exports[`renders success alert correctly 1`] = `
   }
 >
   <TouchableOpacity
+    accessible={false}
     activeOpacity={0.95}
     disabled={false}
     onLayout={[Function]}
@@ -749,6 +755,7 @@ exports[`renders warn alert correctly 1`] = `
   }
 >
   <TouchableOpacity
+    accessible={false}
     activeOpacity={0.95}
     disabled={false}
     onLayout={[Function]}
